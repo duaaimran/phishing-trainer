@@ -1,0 +1,30 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.email-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  background: #f9f9f9;
+}
+.body {
+  margin-top: 10px;
+  font-style: italic;
+}
+.btns button,
+.result button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.result ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
