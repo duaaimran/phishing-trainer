@@ -1,15 +1,24 @@
 {
     "name": "phishing-trainer",
+    "homepage": "https://duaaimran.github.io/phishing-trainer/",
     "version": "1.0.0",
     "private": true,
     "dependencies": {
-      "react": "^18.0.0",
-      "react-dom": "^18.0.0"
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
     },
     "scripts": {
-      "start": "parcel public/index.html --open"
+        "start": "parcel public/index.html --open"
     },
     "devDependencies": {
-      "parcel": "^2.9.3"
-    }
-  }
+        "gh-pages": "^6.3.0",
+        "parcel": "^2.9.3"
+    },
+    "scripts": {
+        "start": "parcel public/index.html",
+        "build": "parcel build public/index.html",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+      }
+}      
+
